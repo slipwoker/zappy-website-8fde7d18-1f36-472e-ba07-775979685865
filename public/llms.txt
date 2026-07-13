@@ -28,7 +28,10 @@ Information about WCAG compliance and accessibility features.
 
 ## How to Contact Us
 
-- (No contact details configured yet.)
+- Email: hello@buckssauce.com
+- Phone: +1 (555) 123-4567
+- Phone (tel): tel:+15551234567
+- Address: Austin, TX
 
 ---
 
