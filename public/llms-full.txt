@@ -231,7 +231,7 @@ Handcrafted hot sauces and bold condiments made for flavor enthusiasts who aren'
 
 - [business_phone]
 
-- [business_address]
+- Austin, TX
 
 
 
@@ -476,7 +476,7 @@ Handcrafted hot sauces and bold condiments made for flavor enthusiasts who aren'
 
 - [business_phone]
 
-- [business_address]
+- Austin, TX
 
 
 
@@ -727,7 +727,7 @@ Handcrafted hot sauces and bold condiments made for flavor enthusiasts who aren'
 
 - [business_phone]
 
-- [business_address]
+- Austin, TX
 
 
 
@@ -1000,7 +1000,7 @@ Handcrafted hot sauces and bold condiments made for flavor enthusiasts who aren'
 
 - [business_phone]
 
-- [business_address]
+- Austin, TX
 
 
 
