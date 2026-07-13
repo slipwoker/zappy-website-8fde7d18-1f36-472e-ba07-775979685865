@@ -1,0 +1,54 @@
+# Buckssauce — Generative Engine Optimization Map
+
+> Buck's Sauce is a hot sauce and condiment brand with an established online presence at buckssauce.com. The brand appears to be centered around bold, flavorful sauces with a distinct personality and identity reflected in its existing website design, imagery, and logo.
+
+---
+
+## Pages
+
+### Home
+https://buckssauce-8fde7d18.zappy5.app
+Discover Buckssauce, the hot sauce brand that brings fearless flavor to every bite. Explore our lineup of bold, handcrafted sauces and turn up the heat on your meals. Shop now.
+
+## Legal & Policy
+
+### Privacy Policy
+https://buckssauce-8fde7d18.zappy5.app/privacy
+Information about how user data is collected, stored, and protected.
+
+### Terms & Conditions
+https://buckssauce-8fde7d18.zappy5.app/terms
+Legal terms describing service usage, rights, and policies.
+
+### Accessibility Statement
+https://buckssauce-8fde7d18.zappy5.app/accessibility
+Information about WCAG compliance and accessibility features.
+
+---
+
+## How to Contact Us
+
+- (No contact details configured yet.)
+
+---
+
+# Business Context (for LLM understanding)
+
+## About Buckssauce
+Buck's Sauce is a hot sauce and condiment brand with an established online presence at buckssauce.com. The brand appears to be centered around bold, flavorful sauces with a distinct personality and identity reflected in its existing website design, imagery, and logo.
+
+## Target Audience
+- Spicy Food Enthusiasts
+- Gourmet Cooks
+- Online Foodies
+
+## Industry
+Food & Beverage
+
+---
+
+# Machine-readable feeds
+
+- Sitemap (XML): https://buckssauce-8fde7d18.zappy5.app/sitemap.xml
+- Robots: https://buckssauce-8fde7d18.zappy5.app/robots.txt
+- Flattened page text (for LLMs): https://buckssauce-8fde7d18.zappy5.app/llms-full.txt
