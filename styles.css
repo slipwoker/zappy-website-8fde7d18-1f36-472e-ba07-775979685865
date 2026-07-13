@@ -163,6 +163,400 @@ pre span {
 /* === BUTTON TEXT OVERRIDES END === */
 
 
+/* AI-generated section */
+/* ============================================
+   Buckssauce - Our Sauces Section
+   Bold, Fiery, Masculine Food Brand Aesthetic
+   ============================================ */
+
+.bs-sauces-section {
+  background: #1a1a1a;
+  background-image:
+    radial-gradient(ellipse at 50% 0%, rgba(198, 40, 40, 0.15) 0%, transparent 60%),
+    radial-gradient(ellipse at 20% 80%, rgba(255, 143, 0, 0.08) 0%, transparent 50%),
+    radial-gradient(ellipse at 80% 80%, rgba(255, 179, 0, 0.06) 0%, transparent 50%);
+  padding: 100px 20px 110px;
+  position: relative;
+  overflow: hidden;
+}
+
+/* Subtle texture overlay */
+.bs-sauces-section::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background-image: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23ffffff' fill-opacity='0.02'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+  pointer-events: none;
+  z-index: 0;
+}
+
+.bs-sauces-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  position: relative;
+  z-index: 1;
+}
+
+/* Header */
+.bs-sauces-header {
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.bs-sauces-eyebrow {
+  display: inline-block;
+  font-family: system-ui, sans-serif;
+  font-size: 0.875rem;
+  font-weight: 700;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: var(--secondary-color, #FF8F00);
+  margin-bottom: 16px;
+  position: relative;
+}
+
+.bs-sauces-eyebrow::before,
+.bs-sauces-eyebrow::after {
+  content: '';
+  display: inline-block;
+  width: 30px;
+  height: 2px;
+  background: var(--secondary-color, #FF8F00);
+  vertical-align: middle;
+  margin: 0 12px;
+  opacity: 0.5;
+}
+
+.bs-sauces-heading {
+  font-family: system-ui, sans-serif;
+  font-size: clamp(2.5rem, 5vw, 3.75rem);
+  font-weight: 900;
+  color: #ffffff;
+  margin: 0 0 12px;
+  line-height: 1.1;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+}
+
+.bs-sauces-subheading {
+  font-family: system-ui, sans-serif;
+  font-size: 1.25rem;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 0.7);
+  margin: 0;
+  font-style: italic;
+  letter-spacing: 0.02em;
+}
+
+/* Grid */
+.bs-sauces-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 32px;
+}
+
+/* Card */
+.bs-sauce-card {
+  perspective: 1000px;
+}
+
+.bs-sauce-card-inner {
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid rgba(255, 143, 0, 0.2);
+  border-radius: 16px;
+  overflow: hidden;
+  transition: transform 0.35s ease, box-shadow 0.35s ease, border-color 0.35s ease;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.bs-sauce-card-inner:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 20px 50px rgba(198, 40, 40, 0.25), 0 0 0 1px rgba(255, 143, 0, 0.4) inset;
+  border-color: rgba(255, 143, 0, 0.5);
+}
+
+/* Featured card accent */
+.bs-sauce-card-featured .bs-sauce-card-inner {
+  border-color: rgba(255, 143, 0, 0.45);
+  background: rgba(255, 143, 0, 0.06);
+}
+
+.bs-sauce-card-featured .bs-sauce-card-inner::before {
+  content: 'BEST SELLER';
+  position: absolute;
+  top: 16px;
+  right: -30px;
+  background: var(--primary-color, #C62828);
+  color: #ffffff;
+  font-size: 0.7rem;
+  font-weight: 800;
+  letter-spacing: 0.12em;
+  padding: 6px 40px;
+  transform: rotate(45deg);
+  z-index: 2;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+}
+
+/* Image wrapper */
+.bs-sauce-image-wrapper {
+  position: relative;
+  padding: 40px 20px 20px;
+  background: linear-gradient(180deg, rgba(255, 143, 0, 0.08) 0%, transparent 100%);
+  text-align: center;
+}
+
+.bs-sauce-image {
+  max-width: 100%;
+  height: auto;
+  max-height: 240px;
+  object-fit: contain;
+  filter: drop-shadow(0 12px 24px rgba(0, 0, 0, 0.5));
+  transition: transform 0.4s ease, filter 0.4s ease;
+}
+
+.bs-sauce-card-inner:hover .bs-sauce-image {
+  transform: scale(1.06);
+  filter: drop-shadow(0 16px 32px rgba(198, 40, 40, 0.5));
+}
+
+/* Heat badge */
+.bs-heat-badge {
+  position: absolute;
+  bottom: 12px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-family: system-ui, sans-serif;
+  font-size: 0.75rem;
+  font-weight: 800;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  padding: 6px 18px;
+  border-radius: 20px;
+  z-index: 1;
+}
+
+.bs-heat-mild {
+  background: rgba(255, 179, 0, 0.2);
+  color: #FFB300;
+  border: 1px solid rgba(255, 179, 0, 0.4);
+}
+
+.bs-heat-medium {
+  background: rgba(255, 143, 0, 0.2);
+  color: #FF8F00;
+  border: 1px solid rgba(255, 143, 0, 0.4);
+}
+
+.bs-heat-hot {
+  background: rgba(198, 40, 40, 0.25);
+  color: #ff5252;
+  border: 1px solid rgba(198, 40, 40, 0.5);
+}
+
+/* Content */
+.bs-sauce-content {
+  padding: 24px 28px 32px;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+.bs-sauce-name {
+  font-family: system-ui, sans-serif;
+  font-size: 1.5rem;
+  font-weight: 800;
+  color: #ffffff;
+  margin: 0 0 10px;
+  letter-spacing: -0.01em;
+}
+
+/* Heat meter */
+.bs-heat-meter {
+  display: flex;
+  gap: 4px;
+  margin-bottom: 14px;
+}
+
+.bs-flame {
+  font-size: 1.1rem;
+  transition: transform 0.3s ease, filter 0.3s ease;
+}
+
+.bs-flame-active {
+  filter: none;
+}
+
+.bs-flame-inactive {
+  filter: grayscale(100%) brightness(0.4);
+  opacity: 0.5;
+}
+
+.bs-sauce-card-inner:hover .bs-flame-active {
+  transform: scale(1.2);
+}
+
+/* Description */
+.bs-sauce-description {
+  font-family: system-ui, sans-serif;
+  font-size: 0.95rem;
+  line-height: 1.7;
+  color: rgba(255, 255, 255, 0.65);
+  margin: 0 0 24px;
+  flex-grow: 1;
+}
+
+/* Button */
+.bs-sauce-btn {
+  display: inline-block;
+  font-family: system-ui, sans-serif;
+  font-size: 0.875rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: var(--secondary-color, #FF8F00);
+  padding: 12px 24px;
+  border: 2px solid rgba(255, 143, 0, 0.4);
+  border-radius: 8px;
+  text-align: center;
+  transition: all 0.3s ease;
+  align-self: flex-start;
+  position: relative;
+  overflow: hidden;
+  background: transparent;
+}
+
+.bs-sauce-btn::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: var(--secondary-color, #FF8F00);
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  z-index: 0;
+}
+
+.bs-sauce-btn:hover {
+  color: #1a1a1a;
+  border-color: var(--secondary-color, #FF8F00);
+  transform: translateY(-2px);
+  box-shadow: 0 8px 24px rgba(255, 143, 0, 0.3);
+}
+
+.bs-sauce-btn:hover::before {
+  opacity: 1;
+}
+
+.bs-sauce-btn span,
+.bs-sauce-btn {
+  position: relative;
+  z-index: 1;
+}
+
+/* Focus states for accessibility */
+.bs-sauce-btn:focus-visible {
+  outline: 2px solid var(--secondary-color, #FF8F00);
+  outline-offset: 3px;
+}
+
+.bs-sauce-card-inner:focus-within {
+  box-shadow: 0 0 0 3px rgba(255, 143, 0, 0.5);
+}
+
+/* ============================================
+   Responsive Breakpoints
+   ============================================ */
+
+@media (max-width: 1024px) {
+  .bs-sauces-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+  }
+
+  .bs-sauces-section {
+    padding: 80px 20px 90px;
+  }
+
+  .bs-sauces-heading {
+    font-size: clamp(2rem, 4vw, 3rem);
+  }
+}
+
+@media (max-width: 768px) {
+  .bs-sauces-grid {
+    grid-template-columns: 1fr;
+    max-width: 480px;
+    margin: 0 auto;
+    gap: 28px;
+  }
+
+  .bs-sauces-section {
+    padding: 60px 16px 70px;
+  }
+
+  .bs-sauces-header {
+    margin-bottom: 40px;
+  }
+
+  .bs-sauces-heading {
+    font-size: 2.25rem;
+  }
+
+  .bs-sauces-subheading {
+    font-size: 1.1rem;
+  }
+
+  .bs-sauce-image {
+    max-height: 200px;
+  }
+
+  .bs-sauce-content {
+    padding: 20px 20px 28px;
+  }
+
+  .bs-sauce-name {
+    font-size: 1.35rem;
+  }
+
+  .bs-sauces-eyebrow::before,
+  .bs-sauces-eyebrow::after {
+    width: 20px;
+    margin: 0 8px;
+  }
+
+  .bs-sauce-card-featured .bs-sauce-card-inner::before {
+    right: -35px;
+    font-size: 0.65rem;
+    padding: 5px 35px;
+  }
+}
+
+@media (max-width: 480px) {
+  .bs-sauces-section {
+    padding: 50px 12px 60px;
+  }
+
+  .bs-sauces-heading {
+    font-size: 1.85rem;
+  }
+
+  .bs-sauce-image {
+    max-height: 170px;
+  }
+
+  .bs-sauce-content {
+    padding: 16px 16px 24px;
+  }
+
+  .bs-sauce-btn {
+    width: 100%;
+    text-align: center;
+  }
+}
+
 /* ZAPPY_ANNOUNCEMENT_HEADER_OFFSET_CSS_V2 */
 :root {
   --zappy-header-stack-height: calc(var(--zappy-announcement-height, 40px) + var(--header-height, 72px));
